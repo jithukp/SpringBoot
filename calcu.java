@@ -5,8 +5,16 @@ interface calc
 
 class add implements calc
 {
-public void add(int a,int b)
-{
-return a+b;
+	public int add(int a,int b)
+	{
+		return a+b;
+	}
 }
+
+class sub implements calc
+{
+	public int sub(int a,int b)
+	{
+		return a-b;
+	}
 }
