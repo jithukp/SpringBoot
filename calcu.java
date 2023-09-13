@@ -18,3 +18,10 @@ class sub implements calc
 		return a-b;
 	}
 }
+class mul implements calc
+{
+	public int mul(int a,int b)
+	{
+		return a*b;
+	}
+}
